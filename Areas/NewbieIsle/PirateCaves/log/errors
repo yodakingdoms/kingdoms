@@ -1,50 +1,0 @@
-areas/NewbieIsle/PirateCaves/o/Room/bird_tower_path1.c line 49:Function init declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/bird_tower_path1.c line 49:Function do_listen declared but never defined
-areas/NewbieIsle/PirateCaves/o/Monster/captain_jack.c line 31:Wrong number of arguments to set_short
-areas/NewbieIsle/PirateCaves/o/Monster/captain_jack.c line 5:Illegal character (hex 0d) ''
-areas/NewbieIsle/PirateCaves/o/Monster/captain_jack.c line 5:parse error
-areas/NewbieIsle/PirateCaves/o/Room/cove_shore.c line 28:Illegal character (hex 0d) ''
-areas/NewbieIsle/PirateCaves/o/Room/cove_shore.c line 28:parse error
-areas/NewbieIsle/PirateCaves/o/Room/cove_shore.c line 28:Function create_object declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/cove_shore.c line 28:Function reset declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/lev1_balcony.c line 51:Illegal character (hex 0d) ''
-areas/NewbieIsle/PirateCaves/o/Room/lev1_balcony.c line 51:parse error
-areas/NewbieIsle/PirateCaves/o/Room/lev1_balcony.c line 51:Function create_object declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/lev1_balcony.c line 51:Function reset declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/lev1_balcony.c line 51:Function init declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/lev1_balcony.c line 51:Function do_climb declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/lev1_east_stairs.c line 28:Illegal character (hex 0d) ''
-areas/NewbieIsle/PirateCaves/o/Room/lev1_east_stairs.c line 28:parse error
-areas/NewbieIsle/PirateCaves/o/Room/lev1_east_stairs.c line 28:Function create_object declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/lev1_east_stairs.c line 28:Function reset declared but never defined
-areas/NewbieIsle/PirateCaves/o/Monster/captain_jack.c line 345:Undefined function: get_ship_obj
-areas/NewbieIsle/PirateCaves/o/Monster/captain_jack.c line 347:Undefined function: get_ship_obj
-areas/NewbieIsle/PirateCaves/o/Room/lev3_bowling_hall.c line 267:Return type not matching: "void "
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 37:Newline in string
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 37:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 37:Function do_tie declared but never defined
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 37:Newline in string
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 37:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 37:Function do_tie declared but never defined
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 45:Variable obj2 not declared!
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 45:Illegal lvalue
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 45:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 49:Illegal LHS
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 68:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 45:Variable obj2 not declared!
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 45:Illegal lvalue
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 45:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 49:Illegal LHS
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 68:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 45:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 49:Illegal LHS
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 68:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 45:parse error
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 49:Illegal LHS
-areas/NewbieIsle/PirateCaves/o/Object/grappling_hook.c line 68:parse error
-areas/NewbieIsle/PirateCaves/o/Room/bird_tower_path2.c line 28:Illegal character (hex 0d) ''
-areas/NewbieIsle/PirateCaves/o/Room/bird_tower_path2.c line 28:parse error
-areas/NewbieIsle/PirateCaves/o/Room/bird_tower_path2.c line 28:Function create_object declared but never defined
-areas/NewbieIsle/PirateCaves/o/Room/bird_tower_path2.c line 28:Function reset declared but never defined
-areas/NewbieIsle/PirateCaves/o/Object/woody_corpse.c line 10:Illegal character (hex 0d) ''
-areas/NewbieIsle/PirateCaves/o/Object/woody_corpse.c line 10:syntax error
