@@ -1,0 +1,10 @@
+=====================================================================
+              --== HobbitFarm area description ==--
+=====================================================================
+
+A small farm to the west of Hazeldown. Mainly just an excuse to 
+provide a bunch of small farm animals for players to try fighting
+with. All of them will be very wimpy and easy to fight for even
+the smallest player.
+
+Yoda - 040420

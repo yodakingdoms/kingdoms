@@ -1,0 +1,48 @@
+
+  Playground
+          \
+          P1        H1D - H1K
+           |         |
+          P2  HTB - H1E - H1B
+            .        |
+     (climb) .      OM - ST
+              .      |
+          G1 - G2 - FG
+
+
+                    H2L - H2B
+                     |
+                 (up/down)
+                     |
+                    H1E
+
+                    HTB
+                     |
+                 (up/down)
+                     |
+                    HCS - HCR
+
+
+    OH - (climb up/down) - HTT
+                            |
+                       (fall down)
+                            |
+                           HTB     
+
+P1      forest_path1.c
+P2      forest_path2.c
+G1      gully_bottom1.c
+G2      gully_bottom2.c
+FP      forest_glen.c
+OM      outside_mansion.c
+ST      stable.c
+H1E     house_floor1_entrance.c
+H1B     house_floor1_ballroom.c
+H1D     house_floor1_dining_room.c
+H1K     house_floor1_kitchen.c
+HTB     house_tower_bottom.c
+HTT     house_tower_top.c
+H2L     house_floor2_landing.c
+H2L     house_floor2_bedroom.c
+HCS     house_cellar_stair.c
+HCR     house_cellar_room.c

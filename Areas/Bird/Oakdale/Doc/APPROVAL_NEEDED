@@ -1,0 +1,109 @@
+-List of items in the area that needs ARCH approval----------------------------
+
+*/players/yoda/oakdale/castle/weapon/dragonstaff.c
+
+ A staff with wc 40 that also talks when it is wielded and while fighting. 
+ Wc 40 is very high I know, but the Clwydch sword of light, for example, also
+ has wc 40, and that is a longblade with no restrictions at all. This staff is
+ a blunt, and you have to be evil to wield it. Furthermore, you need to kill
+ the toughest monster in the area to get it.(/players/yoda/oakdale/castle/
+ monster/nirach.c if you want to look at it) I've also put lore and runes in
+ it, to try to please you enough to let me have it.;>
+
+***
+If it doesn't do anything else, except give fancy messages. OK.
+***
+
+
+*/players/yoda/oakdale/castle/weapon/dragonbelt.c
+
+ A stat enhancing belt. The belt gives +2 str and +2 int, and takes -2 dex
+ and -2 qui. No restrictions. Has lore:). Also comes on the big bad wolf of 
+ the area (see above)
+
+***
+Could you limit it's use also in soem way - like only mages/ bards or whatever
+or perhaps align etc.
+***
+
+*/players/yoda/oakdale/castle/armour/dragonrobe.c
+ 
+ Badguy's robe. Only special in that while it has 30 ac, 10 db only weighs 1.
+
+***
+How many armour locations does it cover? If only one reduce the db.
+
+Yoda: Db reduced to 2.
+***
+
+*/players/yoda/oakdale/castle/object/spellbook.c
+
+ Spellenhancer with varying multiplier. To even be able to use it, you have to
+ be evil, and trying to use it with a nicer align could get you killed. The 
+ multiplier varies according to level and align. The maximum is given if you 
+ are levl 19 or higher and have an align of -1050 or less. That maximum is 
+ 17 (*duck*:)). Less level or nicer align gives lower multipliers. Look at the
+ code to see how the multiplier works. Not that align doesn't strictly follow
+ the demonic/satanic levels, so even if you are satanicm you can't be sure to
+ get the full multiplier out of it. I know that 17 is very high, but I would
+ really want this to be a special, sought after item for highlevel mages(or
+ evil healers!:) That is if there's no drawback that Im not aware of with be
+ ing evil as a healer:)). It has lore and runes hinting to it's properties and
+ dangers, and belongs to Mr Nirach (see above).
+
+***
+No. It is very much like Arsemics tooth that we removed a year and a half ago.
+That one was bugging out and this was before we even had inns. So I can say 
+with fairly good surety that *17 is way too much whatever the reasons and
+restrictions. The *15 that is going out in Ravenloft is an armour that 
+covers all locations, has ac 1 db 0 removes all combat abilities and sets 
+your hp to max 52. That is where we want a *15 multiplier to be. Arsemics
+tooth had a -1100 align requirement and that didn't cut it close enough.
+***
+
+*/players/yoda/oakdale/castle/armour/dark_platemail.c
+
+ Armour with ac 35, db 5. Is found on level 14 and higher standard 'henchmen'-
+ type monsters. /players/yoda/oakdale/castle/monster/Dcommander.c is the 
+ lowest of those who has this armour.
+***
+AC >35 is supposed to be among the very best armours you can get. To give 
+such costly stuff to mere henchmen would be an insult to armoursmiths and
+alchemical mages and investors over the world. One or two such armours is
+what a very rich lord should be able to afford and supply his best man with
+not his standard henchmen.
+
+Yoda:This armour is now found only on the high guards, the cleric, and
+Yzwul(see below) A total of 6 monsters in the area has it now.
+***
+*/players/yoda/oakdale/castle/weapon/dark_bastsword.c
+ 
+ Bastardsword (longblade) with wc 32. Found on level 16 henchmen monsters.
+ /players/yoda/oakdale/castle/monster/Dhighguard.c more precisely.
+
+***
+I guess 32 out of 50 is a little better than 35 out of 40 
+Those monsters should be fairly good to get that heavy equip anyway.
+
+Yoda:Same monsters as have the armour above: 4 in the area.
+***
+
+*/players/yoda/oakdale/castle/weapon/dark_twohsword.c
+
+ Twohanded sword with wc 38. Found on /players/yoda/oakdale/castle/monster/
+                                                                    yzwul.c
+
+***
+I hope he is one of a kind and that he is rather tough. :)
+Sure, twohanded aren't that common yet.
+
+Yoda:One of a kind, yes.
+***
+
+There I think that should be all. If I find anything I have missed, I'll add it
+and let you know:)
+
+-Yoda-011195-------------------------------------------------------------------
+***
+Comments by Berek 951104
+***

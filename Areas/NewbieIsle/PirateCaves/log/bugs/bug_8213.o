@@ -1,0 +1,7 @@
+time 1262466430
+path "/areas/NewbieIsle/PirateCaves/o/Room/cove_shore"
+status "unsolved"
+type "typo"
+desc "description of \"grass\" in beach room in pirate cove says \"sound\" instead of \"south\""
+id 8213
+source "Maryjane"

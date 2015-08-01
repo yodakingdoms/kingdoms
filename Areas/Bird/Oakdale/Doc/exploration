@@ -1,0 +1,30 @@
+/This file contains the explorepoints to be found in Oakdale-------------------
+
+Total number of rooms: 211.
+Total number of explore points: 135 
+-------------------------------------------------------------------------------
+
+*All files are under /areas/Bird/Oakdale/o
+
+/village/room/road1.c               5p        -"Welcome here":)
+/village/room/tree.c               10p
+/village/room/clearing.c            5p
+/village/room/bridge.c              5p
+/village/room/sanatarium.c          5p        -Finding the key.
+/forest/room/river_path1.c         10p
+/forest/room/waterfall.c            5p
+/forest/room/wfallcave_mainroom.c  10p
+/forest/room/dgcave_throne.c       10p
+/forest/room/dgcave_shrine.c        5p
+/forest/room/cottage_path1.c        5p
+/forest/room/shrine_altar.c         5p
+/castle/room/lev1_ledge.c           5p
+/castle/room/icourtyardw.c          5p
+/castle/room/lev2_chapel.c          5p
+/castle/room/lev3_throne.c         10p
+
+/castle/room/lev3_yzwulsroom.c     10p
+/castle/room/lev4_roof.c            5p
+/castle/room/lev5_nirachs_study.c  15p
+
+-------------------------------------------------------------------------------

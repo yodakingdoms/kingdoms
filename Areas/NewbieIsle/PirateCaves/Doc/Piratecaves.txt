@@ -1,0 +1,23 @@
+=====================================================================
+                --== Piratecaves area description ==--
+=====================================================================
+
+This area consists of caves and tunnels dug out from under the Newbie
+Island troll woods to serve as headquarters and livingquarters for
+the Newbie Island pirates. Theres also one huge cave with an
+underground lagoon with direct access to the sea, where the pirates
+ship is hidden. The ship will have a few rooms in it, and players will
+be able to take the ship to sea (see quest documentation). You will
+be able to get here through the hidden entrance from the hill in the
+Newbie Island troll woods.
+
+Even though the Newbie Island pirates were once the terror of the seas,
+they're now little more than a bunch of drunkards. The spoils of thier
+plundering have turned them into fat, rich slobs who spend most of
+their time drinking instead of robbing the seas. This has depressed
+the captain, who can no longer get his crew together to take the ship
+to sea.
+
+It is a newbie area where the monsters are all wimpy lvl 2 ones.
+
+Yoda - 990410

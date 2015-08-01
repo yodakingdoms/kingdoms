@@ -1,0 +1,189 @@
+==============================================================================
+  QC of HobbitFarm done by Siri 2004-07
+==============================================================================
+
+A cute little area. Must be a lot of monsters here for lowlevels to practice
+combat skills on.
+
+==============================================================================
+
+Room/
+*DONE* The correct word is pitchfork and not hayfork (also seen hay fork
+       somewhere), please change those (lots of places).
+
+*DONE* Try to add listen and smell AIs to the rooms.
+       YODA: Added 12 listens and 8 smells(!)
+
+*DONE* Don't you think that add_sounds 60 is a bit too long? My
+       impression is that you don't hear the sounds that often now.
+       YODA: It felt a bit spammy when I was standing around but maybe
+             players don't hang around as long as someone making the room
+             so I lowered it back to 30
+
+Sometimes the add_items get a bit boring (and sometimes strange as well) if
+you just use the same one and puts | inbetween. Like corner and corners, the
+desc mentions corners in plural always. It can be a bit boring sometimes.
+Change some if you have the time perhaps..
+YODA: I do that when there's nothing really special about the item(s) but
+      when I don't want 'there is no foo'. It just feels a bit like a waste
+      of time to put one item for plural and a different one for singular
+      when they all look the same to be honest
+
+===
+
+dest_room:
+Ok.
+
+farm_barn_floor1:
+*DONE* - missing AIs: ceiling
+*DONE* - typos: do_sit: the first that->than
+
+farm_barn_floor2:
+Ok.
+
+farm_center:
+*DONE* - missing AIs: small farm
+
+farm_corn_field:
+*DONE* - missing AIs: ground, fence
+*DONE* - typos: AI yard: poltry->poultry
+
+farm_cow_field:
+*DONE* - missing AIs: ground
+
+farm_gate:
+*DONE* - missing AIs: ground, top, top of the hill
+
+farm_path1:
+*DONE* - missing AIs: ground, farm, stone (from stable)
+
+farm_path2:
+*DONE* - missing AIs: tree, net, large field
+*DONE* - AI field: perhaps write that there are two fields and not just
+          tell about the large one
+
+farm_poultry_yard:
+*DONE* - missing AIs: large field, entrance
+*DONE* - AI house: a bit weird sentence: since hens probably don't care
+          much about how their house looks -> since hens probably don't care
+          much about what their house looks like
+*DONE* - perhaps add a message when trying to 'enter henhouse' ?
+
+farm_pumpkin_field:
+*DONE* - missing AI: watering system
+
+farm_shed:
+*DONE* - missing AIs: floor
+
+farm_sheep_field
+*DONE* - missing AIs: ground, tree, oak tree, top, top of the hill,
+         vegetation (from do_taste)
+*DONE* - do_climb: missing return before notify_fail
+
+farm_stable:
+*SEE ABOVE* - AI corner: perhaps add a new separate message about just one
+              corner, it's a bit boring when looking at one corner gives
+              the same message as looking at corners
+
+farm_well:
+*DONE* - missing AIs: ground, oak tree, top, top of the hill
+*DONE* - typos: AI smell: fill->fills
+
+farm_west:
+*DONE* - missing AIs: oak, oak tree, tree, huge oak, field
+*DONE* - typos: AI barn: bean->beam
+*DONE* - do_climb: missing return before NF
+
+fence_gate:
+*DONE* - missing AIs: ground, farm building|s, top, top of the hill, stone
+        (from bridge)
+
+hazeldown_path1:
+*DONE* - missing AIs: top, top of the hill, listen, small sign, wooden sign,
+         small wooden sign, farm (from sign)
+*NOT DONE* - typos: AI path: foot->feet
+             YODA: 'many a foot' should be an ok english expression
+                   methinks (?)
+
+hazeldown_path2:
+*DONE* - missing AIs: top, top of the hill, thorn|s, branch|es, listen
+*DONE* - do_relax: perhaps add 'rest'?
+*NOT DONE* - also there is no check for argument, you can 'relax blaeh'
+             and relax on the log anyway
+             YODA: That was intentional, I think it's ok to just 'rest'
+                   or 'relax'
+
+hazeldown_path3:
+*DONE* - missing AIs: ground, trunk (from tree), bottom (from river)
+*DONE* - perhaps add 'drink water'?
+*DONE* - typos: Siri stirs in her slumber, and for a second you thought you
+         hear a whispering sound coming from the willow treeSuddenly the roots
+         of the tree next to where Siriis resting start trembling.
+         (thought->think, missing .space after tree and also Siriis -> Siri is,
+         missing space)
+*DONE* - add_sounds: use present time in all the messages so they are the same,
+         thought->think, heard->hear, were->are
+
+house_garden:
+*DONE* - missing AIs: ground, apple tree|s,
+*DONE* - typos: AI bush: growin->growing
+                AI field: weird desc for looking at a field 'there are some
+                growing' huh??
+*DONE* - do_pick: perhaps add berry and berries as well?
+
+house_hallway:
+Ok.
+
+house_hill:
+*DONE* - missing AIs: ground, small farm, gate, fence
+*DONE* - typos: AI oak: extra space
+*DONE* - do_relax: perhaps add 'rest'?
+*SEE ABOVE* - also there is no check for argument, you can 'relax blaeh'
+              and relax in the grass anyway
+
+house_living_room
+*DONE* - missing AIs: ceiling, floor, walls
+*DONE* - typos: AI garden: remove \n
+         AI south wall: isn't this the desc for the windows? looks
+         weird for just a wall..
+*DONE* - do_sit: perhaps a message about not being able to sit in a chair
+         when trying
+
+house_tree:
+*NOT DONE* - add a function for tearing planks loose perhaps?
+             YODA: There was going to be a part of the quest up here but I
+                   made it simpler in the end. Forgot to change plank item
+                   accordingly but that's done now
+
+==============================================================================
+
+Monster/
+*DONE(!!!)* set_short should start with lower_case if it's not a name
+           (man set_short)
+
+
+*DONE* Don't you want the monsters to have weapontypes and descs? Like
+       hoof for the horses and so on? More fun than just unarmed..
+
+===
+
+crow:
+*DONE* - missing id bird
+
+hen:
+*DONE* - missing id bird
+
+hobbit_farmer:
+*DONE* - do_help: perhaps have if(id(str)) instead so all id's are checked for
+*DONE* - greet: perhaps add a check for present player in the room?
+*DONE* (!) - great chats *fniffle* ;)
+
+hobbit_wife:
+*DONE* - name of her husband is spelled wrong in the set_long
+
+==============================================================================
+
+Object/
+*DONE(!!!)* - set_short should start with lower_case (man set_short)
+
+===

@@ -1,0 +1,75 @@
+Yoda's Yet-To-Be-Named quest.
+
+To solve the quest the players (P)  have to overthrow Nirach and liberate the'
+people of Oakdale. To do this they have to enter the castle, steal the orb, and
+destroy it. Killing Nirach will not accomplish this, as his spirit will live on
+even if his flesh is slain. Shattering the orb will free Alywin's spirit and 
+the Cleric will then bring Nirach with him to the afterlife.
+
+For P the quest starts in the tavern (1) with the storyteller (2). The 
+storyteller gives P the background and a few hints; The people who tried to 
+do this fifty years ago hung out in the waterfall caves, and a survivor of the
+first raid is locked up in the madhouse. P should now know that they have to 
+steal and destroy the orb to complete the quest. So, how get the orb and how 
+destroy it...
+
+To get the orb: P should first go listen to the mad man(3) in the madhouse. (4)
+Among all his rambling chats, he gives P a clue, that they have to hit the 
+rock, not just push it. 
+ Then P should go to the waterfall caves, where they'll find two things. The 
+piece of parchment (5) telling them about the old siege tunnel that can be 
+used for entering the castle and the keystone, plus the keystone itself. The 
+keystone is hidden behind the rock, which has stuck, and needs to be hit, not 
+just pushed (see above).(6,7)
+ Then it's off to the stone quarry. When the keystone is placed in the door in
+one of the gnome caves(8), the secret tunnel is revealed, and P can sneak into
+the deepest dungeon of the castle.(9)They then have to kill the guardian spirit
+Nirach has summoned to guard the orb(10), take the orb (11)and then sneak out 
+the same way. The spirit is a lev 18 monster, but it's the only thing they will
+have to kill if they do it this way. They can, of course, storm in the front
+gate of the castle, all guns blazing if they want to, but there will be plenty
+of killing before they reach the orb that way.
+
+To destroy the orb: This they'll find out by entering the grove (12)in the 
+village and talk to the young piper (13) down by the river. He'll direct them 
+to his grandmother who lives in a cottage (14)in the forest. The old woman (15)
+will tell them that the orb can be destroyed by placing it upon the altar in 
+the shrine north of the village. It is good if they know this when they leave 
+the dungeon with the orb. Then they can go straight to the shrine (16)
+and place the orb on the altar. The holy power of the altar will shatter the 
+orb and free Alywin's spirit, who will do the rest. And that's it. The quest 
+is done.*bounce*
+
+Paths to the relevant files. Quest xp given along the way listed together
+with the rooms quest flag number:
+
+1./players/yoda/oakdale/village/room/tavern.c
+      -5000xp (169) 
+2./players/yoda/oakdale/village/monster/storyteller.c
+3./players/yoda/oakdale/village/monster/madguy.c
+4./players/yoda/oakdale/village/room/sanatarium3.c
+      -10000xp (172)
+5./players/yoda/oakdale/forest/object/parchment.c
+  -found in /players/yoda/oakdale/forest/room/wfallcave_mainroom.c
+6./players/yoda/oakdale/forest/object/keystone.c
+7./players/yoda/oakdale/forest/room/wfallcave_storage.c
+      -15000xp (171) for finding stone.
+8./players/yoda/oakdale/forest/room/dgcave_shrine.c
+      -15000xp (174) for fitting the stone.
+9./players/yoda/oakdale/castle/room/dung_antechamber.c
+10./players/yoda/oakdale/castle/monster/guardian.c
+11./players/yoda/oakdale/castle/object/orb.c
+      -Found in /players/yoda/oakdale/castle/room/dung_orbchamber.c
+                    -15000xp (175)
+12./players/yoda/oakdale/village/room/grove2.c
+       -10000xp (170)
+13./players/yoda/oakdale/village/monster/piper.c
+14./players/yoda/oakdale/forest/room/allirias_cottage.c
+       -10000xp (173)
+15./players/yoda/oakdale/forest/monster/alliria.c
+16./players/yoda/oakdale/forest/room/shrine_altar.c
+       -120000xp (168)  for placing the orb on the altar and finishing the
+                        quest.
+Total:200000xp
+
+

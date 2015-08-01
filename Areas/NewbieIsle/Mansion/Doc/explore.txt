@@ -1,0 +1,18 @@
+=====================================================================
+                   --== Mansion area explore ==--
+=====================================================================
+
+Flag Pnts Files
+---- ---- -----
+1106   5  ~Mansion/o/Room/gully_bottom2
+           - Room you get to when you climb down into the gully
+           - init();
+1107   5  ~Mansion/o/Room/house_floor2_bedroom
+           - Bedroom on second floor, where the boss goblin is
+           - init();
+1108   5  ~Mansion/o/Room/house_cellar_room
+           - The room down in the cellar
+           - init();
+1109  10  ~Mansion/o/Room/house_tower_top
+           - Top of the tower, have to climb from outside_house to get here
+           - init();

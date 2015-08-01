@@ -1,0 +1,105 @@
+            Troll woods hill
+                   |
+                   v
+                  FE
+                   |
+                   v
+                  FES
+                   |
+                   v
+                  SG
+
+
+                         (climb)      (swim)
+Level 1:               B ...... CR .............. CS
+                       |                           |    BTT
+                HSR   SE-EW2-ES-(wu/ed)-BTP1-BTP2-BTC  A
+                 \     |  |                          \ |
+                  GP -NS  SR                          BT
+                       |
+               KS-EW1-WN
+                |  |
+                v  SG
+                K (lev2)
+
+
+FE          forest_entrance.c
+FES         forest_entrance_stairs.c
+SG          lev1_south_guardroom.c
+EW1         lev1_ew_corridor1.c
+WN          lev1_wn_corridor.c
+KS          lev1_kitchen_stairs.c
+NS          lev1_ns_corridor1.c
+GP          lev1_gunpowder_room.c
+HSR         lev1_hidden_storage_room.c
+SE          lev1_se_corridor.c
+B           lev1_balcony.c
+EW2         lev1_ew_corridor2.c
+SR          lev1_storeroom.c
+ES          lev1_east_stairs.c
+BTP1        bird_tower_path1.c
+BTP1        bird_tower_path2.c
+BTC         bird_tower_clearing.c
+BT          bird_tower.c
+BTT         bird_tower_top.c
+CR          cove_rocks.c
+CS          cove_shore.c
+
+Level2:
+            S
+            |
+        LC-C3-A
+    (fall)  |
+ HW .... B-C2-SH
+(lev3)      |
+         K-C1-DR
+
+K           lev2_kitchen.c
+DR          lev2_diningroom.c
+C1          lev2_corridor1.c
+B           lev2_balcony.c
+SH          lev2_shop.c
+C2          lev2_corridor2.c
+LQ          lev2_living_quarters.c
+A           lev2_apo.c
+C3          lev2_corridor3.c
+S           lev2_stairs.c
+
+Level 3:    S (lev2)
+        SR  |
+        |   v
+Ship .. H - S
+        .   |
+        .   BH
+        HW
+        |
+        v
+        HUW
+
+S            lev3_stairs.c
+BH           lev3_bowling_hall.c
+H            lev3_harbour.c
+SR           lev3_storage_room.c
+HW           lev3_harbour_water.c
+HUW          lev3_harbour_under_water.c
+
+Ships
+
+        CN
+(climb) A   AD
+        | / (eu/wd)
+   FC - D - C
+        | .
+        v   .
+        BD    .
+              RD - RC
+
+D           black_skull_deck.c
+FC          black_skull_forecastle.c
+AD          black_skull_aft_deck.c
+CN          black_skull_crows_nest.c
+BD          black_skull_below_deck.c
+C           black_skull_cabin.c
+
+RD          riaa_deck.c
+RC          riaa_cabin.c

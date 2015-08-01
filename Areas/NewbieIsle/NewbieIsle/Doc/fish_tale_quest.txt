@@ -1,0 +1,43 @@
+The Fish Tales Quest
+-------------------------------------------------------------------------------
+The idea of the quest is to catch some nice fish, take them to the fisherman,
+show them to him and tell some tales about them. The tales have to be good
+enough to impress the fisherman. The bigger the fish, the easier it is to
+convince him it is true. The whole quest takes place on only a few rooms, like
+7 or 8 of them, so it is not very hard (but that's why it is a lowlevel quest)
+To solve the quest without knowing anything, one would probably do it this way:
+
+*Find the fisherman: He'll chat something about having lost his fishingpole
+                     somewhere on the slope down to the beach. He will also
+                     tell the player to bring him three fish and tell fish
+                     tales about them. He'll hint about the place where they
+                     should go fishing too.
+
+*Find the fishing pole: The fishing pole is found by searching the bush on
+                        the slope. It doesn't have to be this fishingpole
+                        either, but they can get one here.
+
+*Go fishing: Wade to the stone and start fishing. When they have three fish
+             they are satisfied with, go back to the fisherman.
+
+*Tell tales: Tell tales about each fish. When the fisherman has heard enough
+             tales that satisfy him, the quest is done, if not, go fishing
+             again. Lore skill helps, and the size of the fish is a bonus.
+             Can only tell so many tales with one set of fish.
+
+Files: Room/fisherman_cottage.c
+       Room/slope.
+       Room/fishing_stone.c
+       Object/fish.c
+       Object/fish_quest_obj.c
+       Weapon/fishing_pole.c
+       Monster/fisherman.c
+
+If the player solving it has a lore skill less than 10, he/she/it will get
+lore skill raised to 10, thanks to the practice they get in storytelling ;)
+
+Level: 3
+Quest Flag: 188
+Xp reward: A massive 15000 xp.
+
+-------------------------------------------------------------------------------

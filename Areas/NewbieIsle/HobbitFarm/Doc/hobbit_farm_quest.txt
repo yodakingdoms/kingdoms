@@ -1,0 +1,12 @@
+=====================================================================
+                     --== Hobbit Farm quest ==--
+=====================================================================
+
+1) Ask the farmer in farm_central.c for hints as to what to do.
+2) Get pumpkin in farm_pumpkin_field.c
+3) Get carrot in house_garden.c
+4) Get hay in farm_barn_floor2.c
+5) Go to farm_shed.c and make the scarecrow
+6) Go to farm_corn_field.c and place the scarecrow in the ground to
+   scare the birds away and finish the quest.
+

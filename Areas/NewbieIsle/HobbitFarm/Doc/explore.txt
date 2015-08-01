@@ -1,0 +1,19 @@
+=====================================================================
+                 --== HobbitFarm area explore ==--
+=====================================================================
+
+Flag Pnts Files
+---- ---- -----
+1115   5  ~HobbitFarm/o/Room/farm_center
+           - Center of the main yard
+           - init();
+1116   5  ~HobbitFarm/o/Room/farm_cow_field
+           - Cow field to the northwest
+           - init();
+1117   5  ~HobbitFarm/o/Room/farm_corn_field
+           - Corn field to the southwest
+           - init();
+1118  10  ~HobbitFarm/o/Room/house_tree
+           - Tree on top of the hill, have to climb from the top
+             of the hill to get here
+           - init();

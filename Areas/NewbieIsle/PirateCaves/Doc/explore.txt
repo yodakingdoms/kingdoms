@@ -1,0 +1,34 @@
+Explore points in PirateCaves:
+------------------------------
+
+Flag Pnts Files
+---- ---- -----
+1097   5  ~PirateCaves/o/Room/forest_entrance
+           - Entrace from NewbieIsle
+           - init();
+1098   5  ~PirateCaves/o/Room/lev3_harbour
+           - The underground harbour where the ship is
+           - init();
+1099   5  ~PirateCaves/o/Room/bird_tower_top
+           - Top of the tower to the east
+           - init();
+1100   5  ~PirateCaves/o/Room/black_skull_deck
+           - Deck of the black skull
+           - init();
+1101   5  ~PirateCaves/o/Room/lev2_balcony
+           - Balcony overlooking the harbour, on the second level
+           - init();
+1102  10  ~PirateCaves/o/Room/cove_rocks
+           - Down by the rocks where you can climb to from the balcony on
+             the first level
+           - init();
+1103  10  ~PirateCaves/o/Room/lev3_harbour_water
+           - Swimming in the water in the harbour
+           - init();
+1104  10  ~PirateCaves/o/Room/lev3_bowling_hall
+           - The bowling hall on the third level
+           - Bowling and breaking all 10 bottles
+1105  15  ~PirateCaves/o/Room/lev1_hidden_storage_room
+           - The hidden storage room revealed when the powder in the unhidden
+             storage room blows up
+           - init();

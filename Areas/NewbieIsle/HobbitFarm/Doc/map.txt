@@ -1,0 +1,60 @@
+Farm:
+                                     Hazeldown
+                                         |
+               COW                      HP1
+                |                        |
+         FSH   FP1   FS   FPF           HP2
+             \  |     |    |            /
+FB2-(up)-FB1 - FWE - FC - FG - FEG - HP3
+             /        |    |
+   FPY - FP2 - FSF   {H}  FW
+       /
+   FCF
+
+{H} = house
+
+HP1     hazeldown_path1.c
+HP2     hazeldown_path2.c
+HP3     hazeldown_path3.c
+FEG     fence_gate.c
+FG      farm_gate.c
+FPF     farm_pumpkin_field.c
+FW      farm_well.c
+FC      farm_center.c
+FS      farm_stable.c
+FWE     farm_west.c
+FP1     farm_path1.c
+FP2     farm_path2.c
+FSH     farm_shed.c
+FB1     farm_barn_floor1.c
+FB2     farm_barn_floor2.c
+COW     farm_cow_field.c
+FSF     farm_sheep_field.c
+FPY     farm_poultry_yard.c
+FCF     farm_corn_field.c
+
+House:
+
+{F} = farm
+
+           {F}
+            |
+           HH
+            |
+           HLR
+            |
+           HG
+            |
+      (climb steps)
+            |
+           HHI
+            |
+      (climb tree)
+            |
+           HT
+
+HH      house_hallway.c
+HLR     house_living_room.c
+HG      house_garden.c
+HHI     house_hill.c
+HT      house_tree.c

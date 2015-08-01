@@ -1,0 +1,9 @@
+These are the only things that were changed quite a bit from the
+old version. Everything else is just the same with prettier code.
+
+Castle/Object/black_lightning.c
+Castle/Object/fake_magebook.c
+Castle/Monster/darkling_cleric.c
+Castle/Monster/yzwul.c
+Castle/Monster/nirach.c
+Castle/Monster/dragonspirit.c

@@ -1,0 +1,44 @@
+How to complete the quest (probably) if you don't
+know anything about it:
+
+1) Find the pirate captain in the cabin of the ship in
+   the cave. He'll give a list if things needed to take
+   the ship to sea:
+
+   - Pirate flag (from lev1_south_guardroom)
+   - 'Magic' powder keg (from lev1_gunpowder_room)
+   - Grappling hook (hook from cove_rocks tied to any rope,
+                     for example the one in lev1_storeroom)
+   - Sextant (from lev2_living_quarters)
+   - Cannon ball (from lev3_bowling_hall)
+   - Gaff sail (from lev3_storage_room)
+   - Looking glass (from harbour_under_water)
+
+2) When all of the above are in the right place in the ship,
+   the ship will leave the cave and the players will have to
+   perform tasks on orders from the captain:
+
+   a) Raise the gaff sail -> the ship sails away.
+   b) Climb into the crows nest with the looking glass and spot
+      a ship to rob
+   c) Raise the pirate flag
+   d) Go below deck and fire the cannon to cripple the spotted
+      ship
+   e) Use the grappling hook to board the other ship and find
+      the treasure chest there. The monsters on the ship will
+      be scared wimps so no fighting is involved unless players
+      want to beat them up
+   f) Go back to the pirate ship and give the treasure to the
+      captain
+
+The captain will take the ship back and drop the players off. If
+anyone wants to abort the quest before it's done, they can walk
+the plank on the deck of the ship and be washed up on the
+NewbieIsle shore.
+
+There will be a 20 minute time limit once the ship sails out. If
+the players can't get the job done during that time, the captain
+will throw them off his ship and let them drift to NewbieIsle
+shore and take the ship back. He does this mainly to stop some
+idling sod from hijacking the ship, or from locking it up if
+everyone onboard when the ship leaves walk the plank.

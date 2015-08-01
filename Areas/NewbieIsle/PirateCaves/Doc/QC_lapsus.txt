@@ -1,0 +1,42 @@
+===============================================================================
+ QC of PirateCaves by Lapsus
+===============================================================================
+Oki... this is the file where I will be nitpicking...
+It's really your own fault that I nitpick. Had you not written such
+clean good code I might have actual stuff to take up here. Haven't
+found any yet at least. ;o)
+
+
+===============================================================================
+c/
+===============================================================================
+def.h:
+- Why don't you have defines for Master, log and NewbieIsle?
+* All individual files referenced in those dirs have their own specific
+  defines anyway so I didn't feel it was needed - Yoda
+
+===============================================================================
+Armour/
+===============================================================================
+General:
+- set_short should not start with lower-case and should start with a/an
+* They do - Yoda
+
+===============================================================================
+Master/
+===============================================================================
+General:
+- How come you just include <macros.h> here when you include your def.h
+  in armours where you just use STD_ARMOUR? (don't care which way you
+  change but consistency would be nice)
+* Consistency is sometimes forgotten in projects started in 1999 and finished
+  in 2003 ;) I changed these to def.h now - Yoda
+
+- Make sure the files end in a new line, can really mess up some
+  (crappy, but still) editors otherwise.
+
+items_module.c:
+- I thought you added this to std-items? I think it should be added to
+  the lib at least. Love this idea.
+* When I proposed it on a.maint the response was underwhelming to say
+  the least. Feel free to do it.

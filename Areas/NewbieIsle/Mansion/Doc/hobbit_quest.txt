@@ -1,0 +1,36 @@
+=====================================================================
+                --== The Missing Hobbit quest ==--
+=====================================================================
+
+ "A little hobbit girl has lost her friend somewhere in the forest
+  east of Hazeldown. Why don't you go there and see if you can
+  reunite the two?"
+
+A simple little quest where the player must find the hobbit boy and
+lead him back to the hobbit girl. The girl is in the second room of
+the path into the area (you can't miss her). She'll sob and if asked
+give a little story and tell the player that the task is to find the
+hobbit boy and bring him to her.
+
+The hobbit boy is in the cellar of the mansion. He'll tell a little
+story himself and ask player to help him. If player does, he'll follow
+the player around. He will not enter rooms with goblins so player
+must get rid of all goblins on the way back. This can be done by
+fighting them or by climbing up into the tower and causing an accident
+that kills most of the goblins in the way and leaves those who are not
+so they can be fought. The goblin in forest_glen must always be killed
+but he's a wimpy lvl 1 monster.
+
+When hobbit boy follows player into the same room as hobbit girl, there
+will be a short "quest completed" scene and it's done.
+
+It's a level 3 quest because there's quite a bit of fighting even if
+the monsters are wimpy, and that the other way might be a bit tricky
+to figure out if you haven't learnt a bit about how areas work here.
+
+Files:
+Monster/hobbit_boy.c
+Monster/hobbit_girl.c
+Room/forest_path1.c
+Room/house_cellar_room.c
+Room/house_tower_top.c

@@ -1,0 +1,29 @@
+Special items in this area:
+//-Weapons-------------------------------------------------
+ fishing_pole   - Talks quite a bit (messages about fishing
+                  and so on), but is a crappy blunt with no
+                  special attacks. (Used for the fishing 
+                  quest
+
+ newbie_weapon  - A random piece of newbie weapon players 
+                  below level 5 can get if they toss a coin 
+                  into the pond in the troll forest. They are 
+                  a little bit better than they should be 
+                  considering they are 'poor' but they
+                  are only for newbie use, so...
+                  Found in room troll_woods7
+
+  twisted_stick - A weapon with a special attack that is really 
+                  way to good for an avg weapon, but the special 
+                  only happens if the player using it is below
+                  level 5, so it should be ok. It can be found in
+                  room troll_cave
+
+//-Armour---------------------------------------------------
+ newbie_armour  - Same as newbie_weapon
+
+ mithril_sack - A newbie armour that you get from the cave the 
+                trolls live in. It is actually too good, but you 
+                have to be below lvl 5 to be able to use it. Found
+                in room troll_cave
+//----------------------------------------------------------

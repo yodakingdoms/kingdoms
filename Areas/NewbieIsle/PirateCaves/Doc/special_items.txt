@@ -1,0 +1,27 @@
+There are two specialish items in this are, both under Object/
+
+* magic_powder_barrel.c
+  magic_powder.c
+
+ The barrel can be used to pour powder on the ground, and when the powder is
+ ignited, there's a big explosion that can blow things and monsters out of
+ the room. It can't be used under water, it can't be used in no_fight rooms.
+ Unkillable or no_flee monsters are not blown away even if they fail the
+ stat check vs con & siz. It gives temporary penalty to players flung out
+ of the room, but no hp damage. It's mainly supposed to be a fun thing
+ that's also useful at times when dealing with blocking monsters for example.
+
+ The barrel has enough powder for 10 explosions and does not recharge. It's
+ found in Room/lev1_hidden_storage_room. If the player carrying it idles for
+ too long it will hop out of his/her/its inventory and start exploring on its
+ own.
+
+* birdvial.c
+
+  A vial with a potion a player can drink to be turned into a bird that flies
+  away to a location on Newbie Island (Room/bird_tower_top.c). Players can use
+  it as a panic button to get out of sticky situations a bit more gracefully.
+  It can only be used once and only outdoors. It's found in Room/bird_tower.c
+
+Both of the above are non innable.
+

@@ -1,0 +1,31 @@
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Map of Newbie Island - Made by Yoda the Worlds Worst Map Maker
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      CAV                           CAV   : troll_cave
+        \                           TCI   : troll_cave_in
+         TCI                        TCO   : troll_cave_out
+          |                         TC    : troll_clearing
+         TCO                        TH    : troll_hill
+          |                         T1-T9 : troll_woods1 - troll_woods9
+         TC                         V     : viewpoint
+        /  \                        S1-S3 : shore1 - shore3
+      T8 TH T9                      FS    : fishing_stone
+     /  \ |  |                      S     : slope
+   T4    T5-T6-T7                   C     : clearing
+     \    | /                       P1-P2 : path1 - path2
+      T2-T3                         CC    : cottage_clearing
+        \ |                         FC    : fisherman_cottage
+         T1                         FE    : forest_edge
+        /       
+       V                            (Players arrive by boat in shore1)
+      /  
+     S2   S-C-P1
+       \ /      \
+       S1       P2-FE
+        |        |
+    FS-S3       CC
+                 |
+                FC
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+

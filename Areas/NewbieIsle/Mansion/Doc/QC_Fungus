@@ -1,0 +1,190 @@
+=======================================================================
+~Mansion/c                               --== QC By Fungus 040420 ==--
+=======================================================================
+
+General Comments:
+
+ -You could get more creative with the descs...
+ -Things should be described, not reminded of what they do.
+ -There are often repeats of the room desc.
+
+ YODA: It's a way of saying "there's not much use looking at this thing but
+       at least it's not a missing add_item." ;9
+       I've gone through the rooms and added some stuff to make it at least
+       a little better. Resulted in some more add_actions as well.
+
+ In 'man set_short' ->
+     For objects which are not rooms, the short description should start
+     with a non-capitalized indefinite article.
+ This is missed almost everywhere...
+
+ YODA: It's missed because it doesn't look good in non-parse rooms. Having
+       things with upper case indefinite articles works fine in parse rooms
+       and looks better in non parse rooms so I must say I don't really
+       understand why the man page demands lower case. I added articles
+       where they were missing.
+
+ -The 'jump_and_tower_falls_apart_killing_the_monsters' could be
+  somewhat abused (6 dead monsters with money and eq) / reset.
+  (but it's a nice feature and I like it)
+
+ YODA: The eq is pretty useless but I lowered the gold.
+
+=======================================================================
+/Armour/
+=======================================================================
+
+goblin_armour.c
+ -leather and wood material is mixed
+ YODA: Fixed
+
+=======================================================================
+/Master/
+=======================================================================
+
+I always prefer STD_PARSE_ROOM...
+ (especially here with lots of eq to spam the rooms, please change)
+
+YODA: I always don't prefer parse rooms :) But I agree that it can get
+      spammy here so it's changed.
+
+=======================================================================
+/Monster/
+=======================================================================
+
+General: Maybe lower the money on the goblins.
+YODA: Lowered gold on all goblins except the boss one.
+
+fishing_goblin.c:25:  tires -> tries
+YODA: Fixed
+
+goblin.c:60:          Should it be: 'in this here place' ?
+YODA: Yes, goblins don't talk properly
+
+goblin_chief:         set_short("Skrowks the goblin chief"<,1>);
+YODA: Fixed
+
+hobbit_boy.c:        -in set_short:  battered. <H>>h<e's obviously
+YODA: Fixed
+		     -There is a problem with guilds that don't leaves
+                      the room but lumbers, sneaks etc. (when the boy
+		      is suppose to follow)
+YODA: I was aware but as far as I know all guilds are at least capable
+      of 'leave'-ing normally, even if they have the possibility to do
+      other things as well at times so it should be possible for everyone
+      to do it. I'd rather leave it at that than try to figure out all
+      special cases that may occur as I suspect the overwhelming majority
+      of players doing this will have normal leave messages.
+
+hobbit_girl.c:85:     rumor -> rumour
+YODA: Fixed
+
+=======================================================================
+/Room/
+=======================================================================
+
+forest_glen.c:26:  smoldering -> smouldering
+              67:  smoldering -> smouldering
+              72:  smoldering -> smouldering
+YODA: Fixed
+
+gully_bottom1.c:     watertrickle? nah...'trickle of water' maybe.
+YODA: It's not supposed to be a real word. I changed the watertrickle
+      add_item
+
+gully_bottom2.c:69:  brige -> bridge
+YODA: Fixed
+
+house_floor1_kitchen.c:
+  What is cubbards? (cupboards?)
+YODA: Fixed
+  AI wall: There are cubbards by one of them and a in another. ??
+YODA: Fixed
+
+house_floor2_landing.c la landing:  That's where you are now. (*grin*)
+YODA: Fixed
+
+house_tower_bottom.c:  la pile of rubble: Piles of rubble. (*grin*)
+YODA: Fixed
+
+stable.c:27: still< >"+   (extra period)
+YODA: Fixed
+stable.c:38:
+  Instead of:  Two of the walls are still standing, albeit barely.
+  How bout:    Two walls remain, although barely standing.
+YODA: Fixed
+
+=======================================================================
+
+A small check by Siri:
+
+Armour/
+leather_armour.c
+ - set_long: it's -> its
+YODA:Fixed
+
+Room/
+forest_glen.c
+ - do_drink: you can have a notify_fail, it won't mess up
+   drinking potions, besides you have NFs in all the other
+   rooms with a do_drink
+YODA: Fixed. Consistency is overrated *cough*
+
+ - do_search: S(TP->QN + " picks the pouch up.\n"); ->
+   picks up the pouch ??
+YODA: Fixed
+
+forest_path1.c
+ - AI path: winding it's way -> winding its way
+YODA: Fixed. I know this is wrong but I still keep doing it.
+
+ - do_read: query_skill -> QS
+YODA: Fixed
+
+forest_path2.c
+ - do_climb: query_skill -> QS
+YODA: Fixed
+
+house_floor1_entrance.c
+ - do_touch: isn't there a symbol for touch just to be used
+   in an AI?
+YODA: Yes, but not for feel and I wanted both to go to the same action.
+
+house_floor2_landing.c
+ - do_address: TP->PRN + " just peers down at the people
+   downstairs " -> PRN, what's that, you mean QPR?.. and perhaps
+   add a check for gender and replace host with hostess if TP
+   is female
+YODA: Yes, QPR & gender check added.
+
+outside_house.c
+ - do_climb: query_skill -> QS
+YODA: Fixed
+
+stable.c
+ - do_search: S(TP->QN + " picks the torch up.\n"); ->
+   picks up the torch ??
+YODA: Fixed
+
+Monster/
+bodyguard_goblin.c
+ - race: newbie island goblin -> goblin
+goblin.c
+ - race: newbie island goblin -> goblin
+goblin_chief.c
+ - race: newbie island goblin -> goblin
+YODA: Fixed. I don't want to make too many monsters here that people kill and
+      then they don't get nice xp when killing bigger ones in the grownup
+      world but using subraces is better than that so I did that instead
+
+hobbit_boy.c
+ - do_help: helper = C(TP->QN); no need to capitalize QN
+YODA: Apparently not! Changed
+
+hobbit_girl.c
+ - set_long: extra dot at the end
+YODA: Fixed
+
+wounded_goblin.c
+ - CO: C(QN) -> capitalize not needed when using QN
+YODA: Apparently not! Changed

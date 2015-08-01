@@ -1,0 +1,30 @@
+The exploration points in this area:
+-------------------------------------
+Total number of rooms: 27
+Total explore points: 20  (0.5 * rooms + (only) 5)
+
+Domain flags for NewbieIsle:
+Flag: Pts: File:
+
+[990]  5: ~NewbieIsle/o/Room/viewpoint
+            - The first room of the troll woods. To get here 
+              you have to manage to climb the cliff by shore1
+              or figure out the fact that you can stack the
+              rocks there for easier climbing.
+            - init();
+[885]  5: ~NewbieIsle/o/Room/troll_hill
+            - The hill in the middle of the troll woods. You need
+              to read some items to see you can 'climb hill' to 
+              get here in the room below.
+            - init();
+[986]  5: ~NewbieIsle/o/Room/forest_edge
+            - The easternmost room of the area where you can look
+              out over the island. You can just walk here from the
+              room you enter the area.
+            - init();
+[987]  5: ~NewbieIsle/o/Room/fishing_stone
+            - The stone by the shore where you can fish. Have to read
+              some items to figure out that you can 'wade to stone' in 
+              one of the shore rooms to get here
+            - init();
+---------------------------------------------------------------------
